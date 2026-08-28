@@ -314,6 +314,21 @@ related_skills: [doubao-creative-design]
 
 ---
 
+## V — 视觉模板参考（Visual Reference）——出图前必看
+
+> 作者 30 个真实成品案例已收录于 `assets/cases/`（品牌封面展示图），是"维兹风格"最直接的视觉锚点。
+> **用法**：出图前先按行业/手法从案例库选 1-3 张参考图，用 `image_edit` 传入 `image_reference_url_list` 做风格对齐——比纯文字 prompt 更贴作者审美。
+
+**选图指引**（详见 `assets/cases/case-catalog.md`）：
+- 要求**高雅极简/黑白/高级感** → 首选 `jingyukui.jpg`（鲸与盔·黑底白形负形）、`suzhuang.jpg`（素妆·篆体印章）、`yinguo-jewelry.jpg`（银国·暗调高级）、`qianhe.jpg`（字母双版本）
+- 要求**字母/字体设计** → `yubai.jpg`、`qinai.jpg`、`hudai.jpg`、`grand-car.jpg`、`jy-recycle.jpg`
+- 要求**行业符号结合** → `shanhai-chazhan.jpg`、`lemon-tea.jpg`、`lanqiuji.jpg`、`duolaimi-music.jpg`、`quanshijie.jpg`
+- 要求**国风/品牌应用** → `jinhuamuzi.jpg`、`alex-move-viapp.jpg`
+
+**关键**：这些是作者作品的**风格/手法参考**，不是照抄。参考的是"结合方式、极简程度、正负空间、黑白处理"，具体元素必须换成用户的品牌。
+
+---
+
 ## G — 出图约束（Generate Guardrails）——必读
 
 > 用图像生成工具把方案出图时，生成器默认会加装饰、渐变、立体，导致"俗"。
@@ -376,5 +391,6 @@ related_skills: [doubao-creative-design]
 - **验证通过**: V1 ✓ / V2 ✓ / V3 ✓（33 个单元通过三重验证，见 verified.md）
 - **证据分级**: 已按 [确认·多源]/[确认·单源] 标注（推断项 0，见 B 段内部张力）
 - **案例模板库**: examples/case-library.md（作者真实作品拆解 + 行业反查表）
+- **视觉模板库**: assets/cases/（30 张作者真实成品案例图 + case-catalog.md 选图指引，见 V 章节）
 - **测试**: test-prompts.json 已生成
 - **提炼时间**: 2026-08-28
