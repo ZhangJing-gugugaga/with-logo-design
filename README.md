@@ -1,18 +1,18 @@
-# WITH-Logo-skill
+﻿# with-logo-design
 
-从抖音「维兹logo设计」（114 条视频）蒸馏出的 **logo 设计 Skill** 及其全部蒸馏过程文档。
+从抖音「维兹logo设计」（114 条视频）提炼出的 **logo 设计 Skill** 及其全部提炼过程文档。
 
 ## 内容
 
 | 目录 | 说明 |
 |---|---|
-| `weizi-logo-design/` | **Skill 本体**（可直接安装：SKILL.md + test-prompts.json + test-results.md） |
+| `with-logo-design/` | **Skill 本体**（可直接安装：SKILL.md + test-prompts.json + test-results.md） |
 | `docs/素材库.md` | 114 条视频 + 96 条完整口播原始素材 |
-| `docs/BOOK_OVERVIEW.md` | 蒸馏阶段 0：整书理解 |
-| `docs/verified.md` | 蒸馏阶段 1.5：33 个方法论单元三重验证结果 |
-| `docs/INDEX.md` / `docs/GLOSSARY.md` | 蒸馏阶段 3：索引与术语词典 |
-| `docs/DIGEST.md` | 蒸馏阶段 5：方法论精华长文 |
-| `docs/candidates/` | 蒸馏阶段 1：原始候选池 |
+| `docs/BOOK_OVERVIEW.md` | 提炼阶段 0：整书理解 |
+| `docs/verified.md` | 提炼阶段 1.5：33 个方法论单元三重验证结果 |
+| `docs/INDEX.md` / `docs/GLOSSARY.md` | 提炼阶段 3：索引与术语词典 |
+| `docs/DIGEST.md` | 提炼阶段 5：方法论精华长文 |
+| `docs/candidates/` | 提炼阶段 1：原始候选池 |
 
 ## Skill 能力
 
@@ -23,10 +23,10 @@
 
 ## 安装
 
-将 `weizi-logo-design/` 目录放入 Skill 根目录（如 `.user_skills/`）即可。
+将 `with-logo-design/` 目录放入 Skill 根目录（如 `.user_skills/`）即可。
 
 ## 溯源
 
 - 作者：维兹logo设计（成都市九划品牌设计有限公司，抖音号 93381009832）
-- 蒸馏方法：cangjie-skill（RIA-TV++ 流水线，阶段 0-5）
-- 蒸馏时间：2026-08-28
+- 提炼方法：cangjie-skill（RIA-TV++ 流水线，阶段 0-5）
+- 提炼时间：2026-08-28

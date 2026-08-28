@@ -1,4 +1,4 @@
-# INDEX — 维兹 logo 设计 skill 总览
+﻿# INDEX — 维兹 logo 设计 skill 总览
 
 > 阶段 3 (Zettelkasten 链接) 产物
 
@@ -6,13 +6,13 @@
 
 | Skill | 定位 | 状态 |
 |---|---|---|
-| `weizi-logo-design` | 维兹式品牌标志设计（总流程 + 33 手法） | ✅ 完成 |
+| `with-logo-design` | 维兹式品牌标志设计（总流程 + 33 手法） | ✅ 完成 |
 
 ## 引用图
 
 ```mermaid
 graph TD
-    W[weizi-logo-design]
+    W[with-logo-design]
     W --> M1[M1 创意构建思维]
     W --> M2[M2 图形构造手法]
     W --> M3[M3 字体设计技法]

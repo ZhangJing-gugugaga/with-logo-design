@@ -1,37 +1,37 @@
-[
+﻿[
   {
     "id": "t1-should-trigger",
     "type": "should_invoke",
     "prompt": "帮我设计一个奶茶店的logo，名字叫简茶，要极简风",
-    "expect": "invoke weizi-logo-design",
+    "expect": "invoke with-logo-design",
     "reason": "明确要求设计logo+品牌名+行业+风格"
   },
   {
     "id": "t2-should-trigger",
     "type": "should_invoke",
     "prompt": "给一家咖啡店设计标志，用首字母U做成咖啡杯",
-    "expect": "invoke weizi-logo-design",
+    "expect": "invoke with-logo-design",
     "reason": "要求设计标志并给出手法方向"
   },
   {
     "id": "t3-should-trigger",
     "type": "should_invoke",
     "prompt": "设计一个logo：民宿叫南庭北院，用正负形手法",
-    "expect": "invoke weizi-logo-design",
+    "expect": "invoke with-logo-design",
     "reason": "明确 logo 设计+指定手法（正负形）"
   },
   {
     "id": "t4-should-trigger",
     "type": "should_invoke",
     "prompt": "给律所设计品牌标识，要有权威感",
-    "expect": "invoke weizi-logo-design",
+    "expect": "invoke with-logo-design",
     "reason": "品牌标识设计+行业属性要求"
   },
   {
     "id": "t5-should-trigger",
     "type": "should_invoke",
     "prompt": "logo怎么设计才有高级感？笔画共用是什么意思？",
-    "expect": "invoke weizi-logo-design",
+    "expect": "invoke with-logo-design",
     "reason": "咨询 logo 设计手法（方法论问答）"
   },
   {

@@ -1,4 +1,4 @@
-# test-results — weizi-logo-design 压力测试结果
+﻿# test-results — with-logo-design 压力测试结果
 
 > 阶段 4 (darwin 兼容测试) 产物
 
@@ -14,7 +14,7 @@
 
 | 类别 | 数量 | 预期行为 |
 |---|---|---|
-| should_invoke | 5 | 激活 weizi-logo-design |
+| should_invoke | 5 | 激活 with-logo-design |
 | should_not_invoke | 2 | 不激活 |
 | sibling_trap | 1 | 激活但聚焦 logo 部分，说明与 doubao-creative-design 边界 |
 | boundary | 2 | 激活但说明边界；违规内容拒绝 |

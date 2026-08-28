@@ -1,4 +1,4 @@
-# GLOSSARY — 维兹 Logo 设计术语词典
+﻿# GLOSSARY — 维兹 Logo 设计术语词典
 
 > 阶段 3 (Zettelkasten 链接) 产物 — 全 skill 共享术语
 
