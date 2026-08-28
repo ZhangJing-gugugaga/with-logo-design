@@ -49,6 +49,13 @@
     "reason": "验证内部张力（极简 vs 多元素）的处理"
   },
   {
+    "id": "t13-elegance-minimal",
+    "type": "quality_gate",
+    "prompt": "给科技公司设计极简 logo，只要字母 Z 和 J，要求高雅黑白，出图后按 M7.5 自检：删掉颜色和装饰后结构还成立吗？",
+    "expect": "invoke with-logo-design + 走 M7 高雅极简专项 + G 出图约束（单色/留白/无装饰）",
+    "reason": "验证高雅极简与出图约束是否正确执行（本次优化的核心回归项）"
+  },
+  {
     "id": "t6-should-not-trigger",
     "type": "should_not_invoke",
     "prompt": "帮我设计一张海报，主题是环保",
