@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "t1-should-trigger",
     "type": "should_invoke",
@@ -33,6 +33,20 @@
     "prompt": "logo怎么设计才有高级感？笔画共用是什么意思？",
     "expect": "invoke with-logo-design",
     "reason": "咨询 logo 设计手法（方法论问答）"
+  },
+  {
+    "id": "t11-case-library",
+    "type": "should_invoke",
+    "prompt": "我是开宠物店的，店名米奥旺，参考作者的同类案例设计个logo",
+    "expect": "invoke with-logo-design + 参照 examples/case-library.md 的宠物行业反查表",
+    "reason": "验证案例模板库是否被正确引用"
+  },
+  {
+    "id": "t12-tension",
+    "type": "boundary",
+    "prompt": "我想要一个logo：既要极简到只有几个笔画，又要能塞进十二生肖，怎么做？",
+    "expect": "invoke + 判断品牌调性二选一，说明内部张力，不硬拼",
+    "reason": "验证内部张力（极简 vs 多元素）的处理"
   },
   {
     "id": "t6-should-not-trigger",
